@@ -21,7 +21,7 @@ import sys
 import io
 
 
-text = open("dataset.txt").read().lower()
+text = open("dataset.txt", encoding="utf8").read().lower()
 print('corpus length:', len(text))
 print(text)
 
